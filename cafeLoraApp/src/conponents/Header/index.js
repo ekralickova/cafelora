@@ -3,7 +3,6 @@ import './style.css';
 export const Header = () => {
 
     const element = document.createElement('header');
-    element.classList.add("banner");
     element.innerHTML = `
       <div class="header__content container">
         <div class="site-logo"></div>

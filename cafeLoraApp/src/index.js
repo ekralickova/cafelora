@@ -6,13 +6,28 @@ import { Contact } from './conponents/Contact/index.js';
 import { Header } from './conponents/Header/index.js';
 import { Footer } from './conponents/Footer/index.js';
 
+const layers = [
+  {
+    color: '#feeeca',
+    label: 'mléčná pěna',
+  },
+  {
+    color: '#fed7b0',
+    label: 'teplé mléko',
+  },
+  {
+    color: '#613916',
+    label: 'espresso',
+  },
+];
+
 const pageElement = document.createElement('div');
 pageElement.classList.add('page');
 
 const main = document.createElement('main');
 main.append(
   Banner(),
-  Menu(),
+  Menu({}),
   Gallery(),
   Contact(),
 );

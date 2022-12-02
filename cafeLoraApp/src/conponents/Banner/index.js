@@ -11,7 +11,5 @@ export const Banner = () => {
         <p>Nabízíme kvalitní kávu, útulné prostředí a perfektní servis.</p>
       </div>
     </div>`
-
-
     return element;
 }
